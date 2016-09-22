@@ -1,0 +1,145 @@
+*, *::after, *::before {
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	background-color: #0b0f1a;
+}
+
+a {
+	font-family: "Lato", sans-serif;
+	color: #0055d4;
+	font-size: 1.3rem;
+}
+
+.pure-g {
+	overflow: hidden;
+}
+
+.column {
+	padding-top: 2rem;
+	padding-right: 5%;
+	padding-left: 5%;
+	background-color: #fff;
+	padding-bottom: 10000rem;
+	margin-bottom: -10000rem;
+}
+
+.column > h1 {
+	color: #0b0f1a;
+	font-family: "Inconsolata";
+	margin-bottom: 2rem;
+	min-width: 15rem;
+}
+
+.column > h1::after {
+	color: #ff6600;
+	content: ' }';
+}
+
+.column > h1::before {
+	color: #ff6600;
+	content: '{ ';
+}
+
+.column p {
+	line-height: 2rem;
+	font-family: "Lato", sans-serif;
+	font-size: 1.3rem;
+	margin-bottom: 2rem;
+}
+
+.column strong {
+	color: #0055d4;
+}
+
+.wedo {
+	display: block;
+	margin-bottom: 2rem;
+}
+
+.wedo-header {
+	margin-bottom: 1rem;
+}
+
+.wedo .fa {
+	color: #0055d4;
+	font-size: 6rem;
+	display: block;
+	height: 100%;
+	margin-bottom: 1rem;
+}
+
+.wedo .category {
+	color: #0055d4;
+	height: 100%;
+	display: block;
+	font-size: 2rem;
+	font-family: "Inconsolata", monospace;
+}
+
+.header {
+	width: 100%;
+	background-color: #0b0f1a;
+	font-size: 0;
+	text-align: center;
+	min-height: 15rem;
+}
+
+.header::before {
+	content: ' ';
+	display: inline-block;
+	vertical-align: middle;
+	height: 100%;
+	min-height: 15rem;
+}
+
+.header img {
+	vertical-align: middle;
+	width: auto;
+	height: auto;
+	display: inline-block;
+	margin: auto;
+	max-height: 15rem;
+}
+
+.halfborder {
+	display: block;
+	width: 70%;
+	margin-left: 15%;
+	border-bottom: 0.3rem solid #ff6600;
+}
+
+form {
+	margin-bottom: 1rem;
+}
+
+.pure-form textarea {
+	height: 20rem;
+}
+
+.pure-button {
+	background-color: #0055d4;
+	height: 4rem;
+}
+
+footer {
+	text-align: center;
+	color: #fff;
+	background-color: #0b0f1a;
+}
+
+.footer-contents {
+	text-align: left;
+	font-family: "Lato", sans-serif;
+	display: inline-block;
+	padding: 3rem 1rem;
+}
+
+footer span.company-name {
+	color: #f60;
+}

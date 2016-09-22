@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>BitFlip Systems Ltd</title>
+    <link>http://bitflipsystems.com/</link>
+    <description>Recent content on BitFlip Systems Ltd</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-gb</language>
+    <lastBuildDate>Thu, 22 Sep 2016 12:27:01 +0200</lastBuildDate>
+    <atom:link href="http://bitflipsystems.com/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>thankyou</title>
+      <link>http://bitflipsystems.com/thankyou/</link>
+      <pubDate>Thu, 22 Sep 2016 12:27:01 +0200</pubDate>
+      
+      <guid>http://bitflipsystems.com/thankyou/</guid>
+      <description>&lt;p&gt;Relax now, we’ll take it from here.&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>
